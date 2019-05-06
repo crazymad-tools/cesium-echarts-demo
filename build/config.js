@@ -3,7 +3,8 @@ requirejs.config({
   baseUrl: '.',
   paths: {
     'echarts': './lib/echarts/echarts',
-    'echarts-gl': './lib/echarts/echarts-gl'
+    'echarts-gl': './lib/echarts/echarts-gl',
+    'cesiumLib': './lib/cesium/Cesium'
   },
   shim: {
     'echarts-gl': {

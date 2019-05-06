@@ -1,0 +1,33 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 800px;
+  height: 600px;
+}
+.btn-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn {
+  margin: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 3px gray;
+  border-radius: 5px;
+}
+.btn:active {
+  background-color: #f5f5f5;
+  box-shadow: 0 0 5px gray;
+}

@@ -1,6 +1,7 @@
 define([
   './Echarts2D',
   './Echarts3D',
+  './CesiumCanvas',
   'echarts'
 ], function (
   Echars2D,

@@ -3,32 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>3d柱状图</title>
+  <link href="./base.css" rel="stylesheet"/>
   <script type="text/javascript" data-main="build/config" src="./lib/requirejs-2.1.9/require.js"></script>
-  <style>
-    body, html {
-      padding: 0;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .container {
-      width: 800px;
-      height: 600px;
-    }
-    .btn-group {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  </style>
 </head>
 <body>
   <div id="echarts-2d-demo" class="container" style="display: none;"></div>
   <div id="echarts-3d-demo" class="container" style="display: none;"></div>
+  <div id="cesium-canvas" class="container" style="display: none"></div>
   <div class="btn-group">
     <button class="btn">echarts-2d</button>
     <button class="btn">echarts-gl</button>
+    <button class="btn">cesium浮动canvas</button>
   </div>
 </body>
 </html>
